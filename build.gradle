@@ -88,7 +88,7 @@ configurations {
 artifactory {
   //contextUrl = 'http://repo.jfrog.org/artifactory'
 //  contextUrl = 'http://repo-demo:8081/artifactory'
- contextUrl = 'http://http://localhost:8081/artifactory:8081/artifactory'
+ contextUrl = 'http://localhost:8081/artifactory'
   publish {
     repository {
 
