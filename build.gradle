@@ -114,8 +114,8 @@ repoKey = 'libs-snapshot-local' //The Artifactory repository key to publish to
     repository {
       
       repoKey = 'libs-release' //The Artifactory (preferably virtual) repository key to resolve from
-      //username = "${artifactory_user}" //Optional resolver user name (leave out to use anonymous resolution)
-      //password = "${artifactory_password}" //The resolver password
+      username = "admin" //Optional resolver user name (leave out to use anonymous resolution)
+      password = "password" //The resolver password
 
     }
   }
