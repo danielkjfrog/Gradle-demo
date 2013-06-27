@@ -5,7 +5,7 @@
 * 3. Copy the init.gradle to your ~/.gradle directory and execute normally. ATTENTION: Now the Artifactory URL will
 * always be applied to all your projects.
 *
-* Check the URL that apply uses to get the remote script
+* Check the URL that apply uses to get the remote scriptaas
 *
 */
 
