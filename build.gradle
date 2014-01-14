@@ -12,8 +12,8 @@
 buildscript {
   repositories {
     maven {
-    url "http://repo.jfrog.org/artifactory/gradle"
-    //url "http://localhost:8081/artifactory/libs-release"
+   // url "http://repo.jfrog.org/artifactory/gradle"
+    url "http://localhost:8081/artifactory/libs-release"
      // credentials {
 //username = "${artifactory_user}"
 //password = "${artifactory_password}"
@@ -21,7 +21,7 @@ buildscript {
     }
 
     dependencies {
-      classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.0.18')
+      classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.2.2')
     }
   }
 
